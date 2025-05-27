@@ -3,24 +3,23 @@
     <title></title>
   </head>
   <body>
-      <form action="Enviar">
+      <form action="recebe.html" method="get">
            <p>
-              Nome completo:<input type="text">
+              Nome completo:<input type="text" id="nome" name="nome">
            </p>
            <p>
-              Senha:<input type="password">
+              Senha:<input type="password"  id="password" name="password">
           <p>
-              E-mail:<input type="e-mail"> 
+              E-mail:<input type="e-mail"  id="e-mail" name="e-mail"> 
           </p> 
           <p> 
-              Data de nascimento:<input type="date"> 
+              Data de nascimento:<input type="date" id="date" name="date">  
           </p>
          <p>
-              Idade:<input type="number">
+              Idade:<input type="number" id="number" name="number">
             <br><br>
             <input type="submit" value="Enviar">
          </p>
-          
       </form>
   </body>
 </html>
