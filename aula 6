@@ -1,9 +1,9 @@
 <html>
   <head>
-    <title>aula6</title>
+    <title></title>
   </head>
   <body>
-      <form>
+      <form action="Enviar">
            <p>
               Nome completo:<input type="text">
            </p>
@@ -17,9 +17,8 @@
           </p>
          <p>
               Idade:<input type="number">
-            <br>  
-            <input type="submit">
-            
+            <br><br>
+            <input type="submit" value="Enviar">
          </p>
           
       </form>
